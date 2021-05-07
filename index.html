@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<title>Carta para o teatro do futuro</title>
+	<meta charset="utf-8">
+</head>
+<body>
+	<p>
+		Olá! Escrevemos cartas ao Teatro do Futuro.
+		<div>
+			Convidamos você a ler essas escritas, mas considerando suas escolhas. Assim, a cada opção que você faça nas questões apresentadas, você se deparará com um fragmento. E deste, outras opções lhe serão ofertadas, seguindo o mesmo procedimento até despedida e fechamento da carta.
+			<div>
+			Fique à vontade para ler mais de uma vez! Esperamos que usufrua bem deste mosaico de fragmentos de cada uma de nós.</p>
+			<div>
+
+				<p>Escolha uma saudação </p>
+				<input type="radio" id="1" name="q1" value="1" onClick="soma()">
+				<label for="1">Olá Teatro
+				Como você está?</label>
+				<div>
+				</div>
+				<input type="radio" id="2" name="q1" value="2" onClick="soma()">
+				<label for="2">Olá! Espero que ainda exista!
+				E que dentro desta existência esteja bem.</label>
+				<div>
+				</div>
+				<input type="radio" id="3" name="q1" value="3" onClick ="soma()">
+				<label for="3">Prezade Teatro de Future,</label>
+			    </div>
+			    </div>
+				<input type="radio" id="4" name="q1" value="4" onClick="soma()">
+				<label for="4">Caríssimos protagonistas,</label>
+				<div>
+				</div>
+				<input type="radio" id="5" name="q1" value="5" onClick="soma()">
+				<label for="5">Ao teatro do futuro ou a quem possa interessar;</label>
+				<div>
+				</div>
+				<input type="radio" id="6" name="q1" value="6" onClick="soma()">
+				<label for="6">Olá teatro
+				Como você está? Provavelmente deve estar que nem eu, inseguro e esperando os acontecimentos. </label>
+				<div>
+
+				<p>Escolha uma palavra </p>
+				<input type="radio" id="1" name="q2" value="1" onClick="rf()">
+				<label for="1">Preconceito</label>
+				<div>
+				</div>
+				<input type="radio" id="2" name="q2" value="2" onClick="rf()">
+				<label for="2">Novidade</label>
+				<div>
+				</div>
+				<input type="radio" id="3" name="q2" value="3" onClick ="rf()">
+				<label for="3">Pandemia </label>
+			    </div>
+			    </div>
+				<input type="radio" id="4" name="q2" value="4" onClick="rf()">
+				<label for="4">Renascimento</label>
+				<div>
+					<input type="radio" id="5" name="q2" value="5" onClick ="rf()">
+				<label for="3">Morte </label>
+			    </div>
+			    </div>
+		
+		
+
+				<p>Escolha uma tópico </p>
+				<input type="radio" id="1" name="q3" value="1" onClick="palavra()">
+				<label for="1">Relações Sociais</label>
+				<div>
+				</div>
+				<input type="radio" id="2" name="q3" value="2" onClick="palavra()">
+				<label for="2">Mentira</label>
+				<div>
+				</div>
+				<input type="radio" id="4" name="q3" value="4" onClick="palavra()">
+				<label for="4">Ações</label>
+			    <div>
+			    </div>
+				<input type="radio" id="5" name="q3\" value="5" onClick="palavra()">
+				<label for="4">Receita da salvação</label>
+				</div>
+
+
+				<p>Escolha uma tópico </p>
+				<input type="radio" id="1" name="q5" value="1" onClick="a()">
+				<label for="1">Espaço Teatral</label>
+				<div>
+				</div>
+				<input type="radio" id="2" name="q5" value="2" onClick="a()">
+				<label for="2">Missão</label>
+				<div>
+				</div>
+				<input type="radio" id="3" name="q5" value="3" onClick ="a()">
+				<label for="3">Espectativa quanto ao futuro </label>
+			    <div>
+			    </div>
+				<input type="radio" id="4" name="q5" value="4" onClick="a()">
+				<label for="4">Querer o ser</label>
+			    <div>
+			    </div>
+
+
+				<p>Escolha uma sentimento </p>
+				<input type="radio" id="1" name="q4" value="1" onClick="p()">
+				<label for="1">Abrindo o coração</label>
+				<div>
+				</div>
+				<input type="radio" id="2" name="q4" value="2" onClick="p()">
+				<label for="2">Mudança</label>
+				<div>
+				</div>
+				<input type="radio" id="3" name="q4" value="3" onClick ="p()">
+				<label for="3">Esperança </label>
+			    <div>
+			    </div>
+				<input type="radio" id="4" name="q4" value="4" onClick="p()">
+				<label for="4">Saudade</label>
+				<div>
+				</div>
+				<input type="radio" id="4" name="q4" value="5" onClick="p()">
+				<label for="4">Sem brilho no olhar</label>
+				<div>
+				</div>
+		
+
+				<p>Por fim, escolha uma palavra para finalização </p>
+				<input type="radio" id="1" name="q6" value="1" onClick="j()">
+				<label for="1">Mística</label>
+				<div>
+				</div>
+				<input type="radio" id="2" name="q6" value="2" onClick="j()">
+				<label for="2">Esperançosa</label>
+				<div>
+				</div>
+				<input type="radio" id="3" name="q6" value="3" onClick ="j()">
+				<label for="3">História </label>
+			    <div>
+			    </div>
+				<input type="radio" id="4" name="q6" value="4" onClick="j()">
+				<label for="4">Espectativa</label>
+				<div>
+				</div>
+
+                
+                <button onclick="preparar()">Gerar carta</button>
+				<p id="paragrafo"></p>
+
+			
+				
+		
+			<script src="script.js"></script>
+		</body>
+		</html>
